@@ -1,0 +1,4 @@
+[swarm_servers_ubuntu]
+172.173.241.238 ansible_ssh_user='azureuser'
+172.190.63.210 ansible_ssh_user='azureuser'
+20.169.195.164 ansible_ssh_user='azureuser'
