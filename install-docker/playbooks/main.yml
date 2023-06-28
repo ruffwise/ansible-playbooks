@@ -1,0 +1,8 @@
+---
+# - hosts: all  
+# - import_playbook: ../static-assignments/ping.yml
+# - hosts: all
+# - import_playbooks: ../static-assignments/common.yml
+
+- hosts: all  
+- import_playbook: ../static-assignments/non-root-user.yml

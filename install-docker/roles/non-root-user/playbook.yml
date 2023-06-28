@@ -1,0 +1,4 @@
+---
+- hosts: servers
+  roles:
+     - { role: bt5e.docker-non-root-user, non_root_docker_users: vagrant }
